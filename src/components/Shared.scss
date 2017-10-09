@@ -1,0 +1,54 @@
+.pane{
+    font-size: 1.5em;
+    width: 85%;
+    padding: 4% 5%;
+    margin-left: 2%;
+    margin-top:2%;
+    outline: none;
+    border: 1px solid #c7c7c7;
+    border-radius: 6px;
+    background: #FFFFFF;
+    position: absolute;
+
+    h4 {
+        margin: 20px;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+}
+.pane-head{
+    border-bottom: 1px solid #c7c7c7;
+    overflow: auto;
+    height: 65px;
+    margin-bottom: 5%;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.pane-body{
+    text-align: center;
+
+    p {
+        font-size: .7em;
+        line-height: 30px;
+    }
+
+    button {
+        margin-left: 0;
+    }
+
+    ul {
+        list-style: none; 
+        margin: 0px; 
+        padding: 0px;
+    }
+}

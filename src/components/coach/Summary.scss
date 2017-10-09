@@ -1,0 +1,78 @@
+.graph {
+    font-size: 14px;
+}
+
+.time {
+    font-size: .7em;
+    color: #15a5d4;
+    display: flex;
+    justify-content: center;
+    .previous {
+        flex: 0 0 10px;
+        background-image: url('../images/arrow.png');
+        background-repeat: no-repeat;
+        background-position: top left;
+        width: 10px;
+    }
+    .today {
+        flex: 0 0 60%;
+    }
+    .next {
+        flex: 0 0 10px;
+        background-image: url('../images/arrow.png');
+        background-repeat: no-repeat;
+        background-position: top right;
+        width: 10px;
+    }
+}
+
+.legend {
+    width: 100%;
+    margin-bottom: 20%;
+    text-align: left;
+    .note {
+        height: 20px;
+        width: 20px;
+        padding: 2px 0px;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 20px 20px;
+        font-size: 12px;
+        span {
+            margin-left: 30px;
+        }
+    }
+    .mood {
+        @extend .note;
+        color: #9bd4e7;
+        background-image: url('../images/mood-icon.png');
+    }
+    .stress {
+        @extend .note;
+        color: #deb388;
+        background-image: url('../images/stress-icon.png');
+    }
+    .energy {
+        @extend .note;
+        color: #a0c77a;
+        background-image: url('../images/energy-icon.png');
+    }
+}
+
+.pane-head {
+    .nav {
+        flex: 0 0 42px;
+        height: 42px;
+    }
+    .calender {
+        background-image: url('../images/calendar.png');
+    }
+    .list {
+        background-image: url('../images/list.png');
+    }
+    .member {
+        border-radius: 42px;
+        background-image: url('../images/russell.jpg');
+        background-size: 42px 42px;
+    }
+}
