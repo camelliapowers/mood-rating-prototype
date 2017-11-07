@@ -30,7 +30,7 @@ export class Summary extends React.Component {
                     </div>
                     <p>Russell Wilson's Mood</p>
                     <div className="graph">
-                        <LineChart width={305} height={200} data={data}>
+                        <LineChart width={300} height={200} data={data}>
                             <XAxis dataKey="name" />
                             <Line type='monotone' dataKey='mood' stroke='#9bd4e7' strokeWidth={2} />
                             <Line type='monotone' dataKey='stress' stroke='#deb388' strokeWidth={2} />

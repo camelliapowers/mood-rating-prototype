@@ -74,17 +74,10 @@ body {
     transform: translate3d(-500px, 0, 0);
 }
 
-// Landing Select View
-.container-landing {
-    @extend .container;
-    background: #fff;
-    width: 398px;
-    height: 667px;
+// Landing Nav
+.landing-nav {
     animation-duration: .7s;
     animation-name: fadeIn;
-}
-
-.landing-nav {
     margin-top: 55%;
 }
 
@@ -94,9 +87,6 @@ body {
         width: 374px;
         margin: 0 auto;
         padding: 0px;
-    }
-    .button {
-        margin-left: 18%;
     }
 }
 
